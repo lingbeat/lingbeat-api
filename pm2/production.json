@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "lingbeat-api",
+      "script": "production.js",
+      "cwd": "/root/code/lingbeat-api",
+      "exec_mode": "cluster",
+      "instances": 0,
+      "max_memory_restart": "256M",
+      "autorestart": true,
+      "node_args": [],
+      "args": [],
+      "env": {}
+    }
+  ]
+}
