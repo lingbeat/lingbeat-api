@@ -6,8 +6,8 @@ module.exports = class extends G.Model {
   get schema() {
     return {
       name: String,
-      wuxing: String,
-      yinyang: Number
+      wuXing: String,
+      yinYang: Number
     };
   }
 

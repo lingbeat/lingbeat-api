@@ -6,9 +6,9 @@ module.exports = class extends G.Mongooes {
   get schema() {
     return {
       name: String,
-      wuxing: String,
-      yinyang: Number,
-      canggan: [String]
+      wuXing: String,
+      yinYang: Number,
+      tianGan: [String]
     };
   }
 
